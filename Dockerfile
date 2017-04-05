@@ -2,7 +2,7 @@ FROM alpine:3.4
 
 ENV JAVA_HOME /usr/lib/jvm/java-1.8-openjdk
 ENV ASCIIDOCTOR_VERSION "1.5.5"
-ENV ASCIIDOCTOR_PDF_VERSION "1.5.0.alpha.14"
+ENV ASCIIDOCTOR_PDF_VERSION "1.5.0.alpha.15"
 
 RUN apk add --update --no-cache \
         build-base \
