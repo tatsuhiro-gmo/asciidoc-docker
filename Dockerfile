@@ -16,7 +16,8 @@ RUN apk add --update --no-cache \
         ruby-dev \
         ruby \
         ruby-json \
-        ttf-dejavu && \
+        ttf-dejavu \
+        zip && \
     gem install --no-ri --no-rdoc nokogiri \
         -- --use-system-libraries \
         --with-xml2-config=/usr/bin/xml2-config \
